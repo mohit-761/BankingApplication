@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+h1{
+text-align:center;
+color:teal;
+}
+body{
+padding:0px;
+background:silver;
+}
+td{
+color:green;
+font-size:24px;
+}
+
+table{
+background:transparent;
+}
+input{
+font-size:20px;
+}
+img{
+
+}
+.div1{
+border-radius: 10%;
+background:linear-gradient(50deg,orange,red);
+width:fit-content;
+border:8px solid white;
+position:absolute;
+left:350px;
+
+}
+</style>
+
+</head>
+<body>
+<div>
+<table align="center">
+
+<td>
+<h1 id="heading1">SDFC BANK</h1>
+<p style="color:teal;font-size:25px;">TRANSFER FORM</p>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="div1">
+<form action="TransferCode" method="post">
+<table cellspacing="12px" cellpadding="12px">
+<tr>
+<td>Account No:</td>
+<td><input type="text" name="acn"></td>
+</tr>
+
+<tr>
+<td>Name:</td>
+<td><input type="text" name="cname"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" name="psw"></td>
+</tr>
+
+<tr>
+<td>Target Account No:</td>
+<td><input type="text" name="tacn"></td>
+</tr>
+
+<tr>
+<td>Amount:</td>
+<td><input type="text" name="amt"></td>
+</tr>
+
+<tr>
+<td align="right"><input type="submit" value="Submit"></td>
+<td align="right"><input type="reset" value="Clear"></td>
+</tr>
+</table>
+</form>
+</div>
+
+</body>
+</html>

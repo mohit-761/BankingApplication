@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+padding:0px;
+margin:0px;
+background-image: url("bankbg1.jpg");
+background-size:cover;
+}
+h1{
+text-align:center;
+margin:50px;
+background-color:orange;
+}
+td{
+font-size:28px;
+color:blue;
+background-color:red;
+}
+table{
+border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+<div>
+<h1>BALANCE FORM</h1>
+<form action="BalanceCode" method="post">
+<table align="center" cellspacing="12px" cellpadding="12px">
+<tr>
+<td>Account No:</td>
+<td><input type="text" name="acn"></td>
+</tr>
+
+<tr>
+<td>Name:</td>
+<td><input type="text" name="cname"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" name="psw"></td>
+</tr>
+
+<tr>
+<td align="right"><input type="submit" value="Submit"></td>
+<td align="right"><input type="reset" value="Clear"></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>

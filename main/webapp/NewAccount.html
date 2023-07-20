@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<!--css-->
+<style>
+body{
+text-align:center;
+padding:0px;
+background-color:royalblue;
+background-image:url("pigi.jpg");
+background-size: cover;
+}
+
+td{
+padding:15px;
+font-size:20px;
+font-weight: bold;
+color:blue;
+}
+
+input{
+font-size:20px;
+background-color: Ivory;
+border:1 solid yellow-green;
+}
+a{
+
+color:white;
+padding:25px;
+font-size:22px;
+text-decoration: none;
+}
+p{
+font-size: 20px;
+}
+.div2{
+margin:10px;
+padding:10px;
+background-color: brown;
+}
+
+#ltd1{
+color:blue;}
+</style>
+</head>
+
+<!--body-->
+<body>
+<div class="div1">
+<table align="center">
+<tr>
+<td>
+<img src="sdfclogo.png">
+</td>
+<td>
+<h1 id="heading1">SDFC BANK</h1>
+<p style="color:orange;font-size:22px;">EXTRAORDINARY SERVICES</p>
+</td>
+</tr>
+</table>
+</div>
+
+<div class="div2">
+<a href="Home.html">Home</a>
+<a href="NewAccount.html">New Account</a>
+<a href="BalanceForm.html">Balance</a>
+<a href="DepositeForm.html">Deposite</a>
+<a href="withdrawform.html">Withdraw</a>
+<a href="transfer.html">Transfer</a>
+<a href="#">Close A/C</a>
+<a href="#">About</a>
+
+</div>
+
+<!-- form -->
+<div class="div3">
+<p style="color:blue; font-size: 23px; font-weight:bold;">Open Account Form</p> 
+<form action="NewAccount" method="post">
+<table align="center">
+<tr>
+<td>Account Number:</td>
+<td><input type="text" name="acn"></td>
+</tr>
+
+<tr>
+<td>Name:</td>
+<td><input type="text" name="custname"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" name="psw"></td>
+</tr>
+
+<tr>
+<td>Confirm Password:</td>
+<td><input type="password" name="psw2"></td>
+</tr>
+
+<tr>
+<td>Amount:</td>
+<td><input type="text" name="amt"></td>
+</tr>
+
+<tr>
+<td>Address:</td>
+<td><input type="text" name="caddr"></td>
+</tr>
+
+<tr>
+<td>Mobile No:</td>
+<td><input type="text" name="mno"></td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" value="Submit">
+</td>
+<td id="ltd2">
+<input type="reset" value="Clear">
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
